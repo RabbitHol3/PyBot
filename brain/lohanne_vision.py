@@ -3,7 +3,7 @@ import io
 import os
 from google.oauth2 import service_account
 
-def analisa_imagem(file):
+def analisa_imagem(path):
     """Analisa imagem"""
     credenciais = service_account.Credentials.from_service_account_file(r'C:\Users\Pickle\Desktop\PyBot\PyBot-40afe7d987c0.json')
 
